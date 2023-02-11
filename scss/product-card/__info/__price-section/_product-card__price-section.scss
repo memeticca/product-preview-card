@@ -1,0 +1,13 @@
+.product-card__price-section {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+
+  > .product-card__price {
+    color: hsl(158, 36%, 37%);
+  }
+
+  > .product-card__previous-price {
+    text-decoration: line-through;
+  }
+}

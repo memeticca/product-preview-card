@@ -1,0 +1,15 @@
+@use "../product-card/product-card" as productCard;
+
+@media screen and (max-width: 500px) {
+  .product-card {
+    width: 90vw;
+  }
+  .product-card > img {
+    width: 100%;
+    border-radius: productCard.$borderRadius productCard.$borderRadius 0 0;
+  }
+
+  .product-card__info {
+    width: 100%;
+  }
+}
